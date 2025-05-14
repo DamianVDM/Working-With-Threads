@@ -1,4 +1,12 @@
 # Thread Basics for Java
+
+## **Thread Class**
+The JVM (Java Virtual Machine) allows multiple execution threads to run concurrently.
+* Every thread has a priority and are executed in preference accordingly.
+* There are 2 ways to create a Execution Thread.
+	1) Declare the working class as subclass of Thread, this class should @Override the run() method of Thread.
+	2) Use Runnable Interface as mentioned below.
+
 ## **Runnable Interface**
 The Runnable Interface is used:
 * If you wish to execute a specific class and its instances in a separate thread. (Oracle, 2025)
@@ -9,13 +17,6 @@ The Runnable Interface is used:
 The Callable Interface is used:
 * If you wish to execute a task that returns a value or throws an exception, in a separate thread. (Oracle, 2025)
 * call() method is used to compute a result or throw an exception if unable to do so. (Oracle, 2025)
-
-## **Thread Class**
-The JVM (Java Virtual Machine) allows multiple execution threads to run concurrently.
-* Every thread has a priority and are executed in preference accordingly.
-* There are 2 ways to create a Execution Thread.
-	1) Declare the working class as subclass of Thread, this class should @Override the run() method of Thread.
-	2) Use Runnable Interface as mentioned prior.
 
 ## **Future Interface**
 A specific Future is a representation of an asynchronous computation (Oracle 2025), where provided Methods await
