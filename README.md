@@ -3,7 +3,7 @@
 The Runnable Interface is used:
 * If you wish to execute a specific class and its instances in a separate thread. (Oracle, 2025)
 * If you do not wish for the class instance to return a value. (Oracle, 2025)
-*NOTE:* Runnable does **NOT** throw a checked exception. (Oracle, 2025)
+* *NOTE:* Runnable does **NOT** throw a checked exception. (Oracle, 2025)
 
 ## **The Callable Interface**
 The Callable Interface is used:
